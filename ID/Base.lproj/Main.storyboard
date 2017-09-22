@@ -21,60 +21,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="100" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="3r3-wi-39L">
-                                <rect key="frame" x="8" y="188" width="359" height="473"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">You are your best defense to keeping your identity safe.  No one else will do it.  Just like crossing the street without looking, those that do are putting their own safety in the hands of the someone else.  Someone they don’t know.  Always be proactive in your own safety, be it physical or financial.
-
-This app is designed for people who have been a victim of identity theft in some shape or form.  It is not a solution, but does offer you a starting point. Always decide what is best for you and sift through the information you are getting to the best of your ability.
-
-Some of the steps to protecting your own identity are quick and easy, but may be time consuming, such as waiting on the phone.  Other steps may be even more time consuming, such as visiting your local Social Security office.
-
-Please note that this app will be updated as we find out more information about how to deal with identity theft and potential fraud related to identity theft. Again, we are here a an outline.  Only you can decide what are the best steps for protecting your identity.
-
-We want you to be secure and we have no means of protecting your information on your phone, so we are not allowing you to store information on the app.  We do recommend that you have an organized and secure way for finding special passwords and accessing your accounts.
-
-Remember, it is much easier to prevent something from happening then to try to go back and clean up a mess.  The makers of this app encourage you to relay to your Senator and Representatives the importance of safeguarding each one of our identities.  Encourage them to create a more secure system for identification, one that doesn’t potentially put you in jeopardy every time you contact the cable company. Keep in mind that the workers in many of the agencies you will need to contact in order to secure your identity may have also been a victim of identity theft and are very empathetic to your situation. Treat them with gratitude and they will do their very best to help you. Many people have fallen victim to identity theft and your Senator or Representative may also be a victim.  What may have been a big boat, now seems to have morphed into an arc.  Stay alert and protect yourself.
-
-
-Section 1 Do First / low hanging fruit
-
-Call:
-your bank(s)
-your credit card(s)
-contact local law enforcement
-contact the DMV?  They will give you a special id to keep with your drivers license, to identify you as the real you and not just a person impersonating you.
-contact your state Federal Trade Commission
-contact your state District Attorney’s Office
-contact the IRS
-contact the Social Security Administration
-others: ________
-
-OPM data breach and who received a letter from the government, check the website regularly.  They will notify you if they see activity that seems to be unusual, such as opening a new bank account.  The site is somewhat difficult to understand and make sense of, but do your best.  It is for your own protection and well being.
-
-Contact one of the credit bureaus and they will notify the other two.  Use caution: The makers don’t of this app do not recommend contacting Equifax, because the insecurity of their website fell into question.  As with dealing with any consumer product, use caution and your best judgement and try to stay on top of the news as it relates to data breaches that may effect you.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fmL-GO-b8L">
-                                <rect key="frame" x="0.0" y="178" width="375" height="489"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.25" colorSpace="calibratedRGB"/>
-                            </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mF4-sE-iOX">
-                                <rect key="frame" x="0.0" y="64" width="375" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="08a-Hq-XGG">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ygf-Cb-z30">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUa-Nb-Gvf">
+                                                <rect key="frame" x="0.0" y="178" width="375" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="mOB-gf-rzH"/>
+                                                </constraints>
+                                                <string key="text">You are your best defense to keeping your identity safe.  No one else will do it.  Just like crossing the street without looking, those that do are putting their own safety in the hands of the someone else.  Someone they don’t know.  Always be proactive in your own safety, be it physical or financial.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="CUa-Nb-Gvf" firstAttribute="leading" secondItem="Ygf-Cb-z30" secondAttribute="leading" id="5z4-gr-A30"/>
+                                            <constraint firstItem="CUa-Nb-Gvf" firstAttribute="width" secondItem="Ygf-Cb-z30" secondAttribute="width" id="O06-Eo-OBL"/>
+                                            <constraint firstItem="CUa-Nb-Gvf" firstAttribute="top" secondItem="Ygf-Cb-z30" secondAttribute="top" constant="178" id="Uva-HX-bTz"/>
+                                            <constraint firstAttribute="trailing" secondItem="CUa-Nb-Gvf" secondAttribute="trailing" id="W5p-hi-a2c"/>
+                                            <constraint firstAttribute="bottom" secondItem="CUa-Nb-Gvf" secondAttribute="bottom" constant="311" id="y3b-FD-mcj"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Ygf-Cb-z30" firstAttribute="leading" secondItem="08a-Hq-XGG" secondAttribute="leading" id="Ngl-ln-OaR"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ygf-Cb-z30" secondAttribute="bottom" id="cDA-ak-4Rj"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ygf-Cb-z30" secondAttribute="trailing" id="h12-2m-s6v"/>
+                                    <constraint firstItem="Ygf-Cb-z30" firstAttribute="top" secondItem="08a-Hq-XGG" secondAttribute="top" id="kgC-KV-HwE"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="fmL-GO-b8L" secondAttribute="bottom" id="Cwk-BE-H5V"/>
-                            <constraint firstItem="fmL-GO-b8L" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="OOg-oF-I99"/>
-                            <constraint firstItem="fmL-GO-b8L" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QVo-Mz-JZl"/>
-                            <constraint firstAttribute="trailing" secondItem="fmL-GO-b8L" secondAttribute="trailing" id="bn6-fD-eWH"/>
+                            <constraint firstItem="08a-Hq-XGG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DEv-nl-0HO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="08a-Hq-XGG" secondAttribute="bottom" id="N2D-0N-0Vs"/>
+                            <constraint firstAttribute="trailing" secondItem="08a-Hq-XGG" secondAttribute="trailing" id="SoM-qD-pDD"/>
+                            <constraint firstItem="08a-Hq-XGG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sxm-9a-Gdb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Wcu-f4-QhT">
@@ -84,6 +71,9 @@ Contact one of the credit bureaus and they will notify the other two.  Use cauti
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="Scroller" destination="Ygf-Cb-z30" id="Z32-ab-3eJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
