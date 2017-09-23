@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Welcome View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="WelcomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="ID" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,47 +21,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="08a-Hq-XGG">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SR5-5a-AVj">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ygf-Cb-z30">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-vh-EH5" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1419"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUa-Nb-Gvf">
-                                                <rect key="frame" x="0.0" y="178" width="375" height="21"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="mOB-gf-rzH"/>
-                                                </constraints>
-                                                <string key="text">You are your best defense to keeping your identity safe.  No one else will do it.  Just like crossing the street without looking, those that do are putting their own safety in the hands of the someone else.  Someone they don’t know.  Always be proactive in your own safety, be it physical or financial.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xGt-Tl-H6N">
+                                                <rect key="frame" x="8" y="8" width="359" height="1403"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
+                                        <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstItem="CUa-Nb-Gvf" firstAttribute="leading" secondItem="Ygf-Cb-z30" secondAttribute="leading" id="5z4-gr-A30"/>
-                                            <constraint firstItem="CUa-Nb-Gvf" firstAttribute="width" secondItem="Ygf-Cb-z30" secondAttribute="width" id="O06-Eo-OBL"/>
-                                            <constraint firstItem="CUa-Nb-Gvf" firstAttribute="top" secondItem="Ygf-Cb-z30" secondAttribute="top" constant="178" id="Uva-HX-bTz"/>
-                                            <constraint firstAttribute="trailing" secondItem="CUa-Nb-Gvf" secondAttribute="trailing" id="W5p-hi-a2c"/>
-                                            <constraint firstAttribute="bottom" secondItem="CUa-Nb-Gvf" secondAttribute="bottom" constant="311" id="y3b-FD-mcj"/>
+                                            <constraint firstItem="xGt-Tl-H6N" firstAttribute="top" secondItem="Drk-vh-EH5" secondAttribute="top" constant="8" id="3Dv-Bf-VPk"/>
+                                            <constraint firstAttribute="trailing" secondItem="xGt-Tl-H6N" secondAttribute="trailing" constant="8" id="MFZ-lC-Rjd"/>
+                                            <constraint firstAttribute="bottom" secondItem="xGt-Tl-H6N" secondAttribute="bottom" constant="8" id="SC4-fa-dx4"/>
+                                            <constraint firstItem="xGt-Tl-H6N" firstAttribute="leading" secondItem="Drk-vh-EH5" secondAttribute="leading" constant="8" id="f81-hq-HxC"/>
                                         </constraints>
-                                    </scrollView>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Ygf-Cb-z30" firstAttribute="leading" secondItem="08a-Hq-XGG" secondAttribute="leading" id="Ngl-ln-OaR"/>
-                                    <constraint firstAttribute="bottom" secondItem="Ygf-Cb-z30" secondAttribute="bottom" id="cDA-ak-4Rj"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ygf-Cb-z30" secondAttribute="trailing" id="h12-2m-s6v"/>
-                                    <constraint firstItem="Ygf-Cb-z30" firstAttribute="top" secondItem="08a-Hq-XGG" secondAttribute="top" id="kgC-KV-HwE"/>
+                                    <constraint firstItem="Drk-vh-EH5" firstAttribute="leading" secondItem="SR5-5a-AVj" secondAttribute="leading" id="Gaz-fD-d6K"/>
+                                    <constraint firstAttribute="bottom" secondItem="Drk-vh-EH5" secondAttribute="bottom" id="YnA-fP-8pJ"/>
+                                    <constraint firstItem="Drk-vh-EH5" firstAttribute="top" secondItem="SR5-5a-AVj" secondAttribute="top" id="hb1-6k-VRL"/>
+                                    <constraint firstAttribute="trailing" secondItem="Drk-vh-EH5" secondAttribute="trailing" id="hvM-VM-SET"/>
+                                    <constraint firstItem="Drk-vh-EH5" firstAttribute="width" secondItem="SR5-5a-AVj" secondAttribute="width" id="oEg-2W-Qyq"/>
                                 </constraints>
-                            </view>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="08a-Hq-XGG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DEv-nl-0HO"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="08a-Hq-XGG" secondAttribute="bottom" id="N2D-0N-0Vs"/>
-                            <constraint firstAttribute="trailing" secondItem="08a-Hq-XGG" secondAttribute="trailing" id="SoM-qD-pDD"/>
-                            <constraint firstItem="08a-Hq-XGG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sxm-9a-Gdb"/>
+                            <constraint firstAttribute="trailing" secondItem="SR5-5a-AVj" secondAttribute="trailing" id="Ftx-eX-eeP"/>
+                            <constraint firstItem="SR5-5a-AVj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="WwS-Sc-zEL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SR5-5a-AVj" secondAttribute="bottom" id="hm2-PQ-vgy"/>
+                            <constraint firstItem="SR5-5a-AVj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jHv-OV-d2o"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Wcu-f4-QhT">
@@ -71,9 +69,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="Scroller" destination="Ygf-Cb-z30" id="Z32-ab-3eJ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
