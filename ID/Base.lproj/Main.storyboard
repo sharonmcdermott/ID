@@ -269,8 +269,27 @@ Remember, it is much easier to prevent something from happening then to try to g
                     <view key="view" contentMode="scaleToFill" id="JaZ-cb-6Et">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HGL-8Z-drR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="iW3-Vy-seB" id="T3h-QM-KPV"/>
+                                    <outlet property="delegate" destination="iW3-Vy-seB" id="lIa-hh-62G"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HGL-8Z-drR" firstAttribute="leading" secondItem="JaZ-cb-6Et" secondAttribute="leading" id="AF0-wY-VoM"/>
+                            <constraint firstAttribute="trailing" secondItem="HGL-8Z-drR" secondAttribute="trailing" id="DOD-gm-YQs"/>
+                            <constraint firstItem="HGL-8Z-drR" firstAttribute="top" secondItem="JaZ-cb-6Et" secondAttribute="top" id="oZm-ii-JEe"/>
+                            <constraint firstItem="Bcl-Wo-PHS" firstAttribute="top" secondItem="HGL-8Z-drR" secondAttribute="bottom" id="phO-MR-jyx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="HGL-8Z-drR" id="vMk-18-O99"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mUp-fh-lZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
