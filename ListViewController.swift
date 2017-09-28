@@ -12,10 +12,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet weak var tableView: UITableView!
     let sections: [String] = ["Baby Steps", "Like A Big Kid", "Big Boy Pants", "Like an Adult"]
-    let s1Data: [String] = ["Call Your Bank(s)", "Call Credit Card(s)", "Call Retirment Account(s)", "Call Investment Account(s)"]
-    let s2Data: [String] = ["Call IRS Identity Theft Line 1 (800) 908-4490", "File IRS Form 14039", "Notify Your State's Department of Taxation", "Notify the Social Security Administration", "Notify the Federal Trade Commission", "Notify Your State('s) Attorney General", "*Notify the Three Credit Bureaus"]
-    let s3Data: [String] = ["File A Local Police Report", "Freeze Your Credit Reports"]
-    let s4Data: [String] = ["File Your Taxes Early", "Regularly Monitor Credit Card", "Regularly Monitor Credit Report", "Check OPM Monitoring Site"]
+    let s1Data: [String] = ["Set Up Verbal Passwords For Accounts", "Notify Your Bank(s)", "Notify Your Credit Card(s)", "Notify Your Retirment Account(s)", "Notify Your Investment Account(s)"]
+    let s2Data: [String] = ["Call IRS Identity Theft Line 1 (800) 908-4490", "File IRS Form 14039", "Notify Your State's Department of Taxation", "Notify the Social Security Administration", "Notify the Federal Trade Commission", "Notify Your State('s) Attorney General", "File A Local Police Report"]
+    let s3Data: [String] = ["Decide What Action You Will Take", "Notify the Three Credit Bureaus", "Freeze Your Credit Reports"]
+    let s4Data: [String] = ["Open Your Mail Right Away", "Read Breach Letters Right Away", "File Your Taxes Early", "Regularly Monitor Credit Card", "Regularly Monitor Credit Report", "Regularly Check Monitoring Site(s) You Have Set Up"]
     
     /// Future: provide info related to what to do regarding specific security breaches, such as OPM, Equifax, Bank of America, Target, Clifton Larson Allen, etc.
     
