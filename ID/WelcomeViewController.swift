@@ -10,17 +10,13 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
     
-//    @IBOutlet weak var Scroller: UIScrollView!
-    
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-//        Scroller.contentInset = UIEdgeInsetsMake(0, 0, 400, 0)
+
         
         
     }
@@ -42,16 +38,6 @@ class WelcomeViewController: UIViewController {
     }
     */
 
- /*
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        
-        self.Scroller.frame = self.view.bounds
-        self.Scroller.contentSize.height = 400
-        self.Scroller.contentSize.width = 0
 
-    
-   }
-   */
 
 }
