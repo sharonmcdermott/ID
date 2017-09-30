@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80458C821F7ADBA3008CDB50 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80458C811F7ADBA3008CDB50 /* ListViewController.swift */; };
+		808257961F7FF32F00EF9D8D /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808257951F7FF32F00EF9D8D /* CreditsViewController.swift */; };
 		80F2188F1F6E81F100EAB0D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2188E1F6E81F100EAB0D0 /* AppDelegate.swift */; };
 		80F218941F6E81F100EAB0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F218921F6E81F100EAB0D0 /* Main.storyboard */; };
 		80F218961F6E81F100EAB0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F218951F6E81F100EAB0D0 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		80458C811F7ADBA3008CDB50 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ../ListViewController.swift; sourceTree = "<group>"; };
+		808257951F7FF32F00EF9D8D /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		80F2188B1F6E81F100EAB0D0 /* ID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F2188E1F6E81F100EAB0D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80F218931F6E81F100EAB0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				80F2188E1F6E81F100EAB0D0 /* AppDelegate.swift */,
 				80458C811F7ADBA3008CDB50 /* ListViewController.swift */,
+				808257951F7FF32F00EF9D8D /* CreditsViewController.swift */,
 				80F218A01F6E836300EAB0D0 /* WelcomeViewController.swift */,
 				80F218921F6E81F100EAB0D0 /* Main.storyboard */,
 				80F218951F6E81F100EAB0D0 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 				80F2188F1F6E81F100EAB0D0 /* AppDelegate.swift in Sources */,
 				80F218A11F6E836300EAB0D0 /* WelcomeViewController.swift in Sources */,
 				80458C821F7ADBA3008CDB50 /* ListViewController.swift in Sources */,
+				808257961F7FF32F00EF9D8D /* CreditsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
