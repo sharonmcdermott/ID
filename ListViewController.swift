@@ -11,7 +11,7 @@ import UIKit
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
-    let sections: [String] = ["Baby Steps", "Like A Big Kid", "Big Boy Pants", "Like an Adult"]
+    let sections: [String] = ["Baby Steps", "Like A Big Kid", "Big Boy Pants", "Like A Responsible Adult"]
     let s1Data: [String] = ["Set Up Verbal Passwords For Accounts", "Notify Your Bank(s)", "Notify Your Credit Card(s)", "Notify Your Retirment Account(s)", "Notify Your Investment Account(s)"]
     let s2Data: [String] = ["Call IRS Identity Theft Line 1 (800) 908-4490", "File IRS Form 14039", "Notify Your State's Department of Taxation", "Notify the Social Security Administration", "Notify the Federal Trade Commission", "Notify Your State('s) Attorney General", "File A Local Police Report"]
     let s3Data: [String] = ["Decide What Action You Will Take", "Notify the Three Credit Bureaus", "Freeze Your Credit Reports"]
