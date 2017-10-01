@@ -26,7 +26,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-vh-EH5" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1258.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1216"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVG-PR-VAR" userLabel="Title Text View">
                                                 <rect key="frame" x="8" y="8" width="359" height="80"/>
@@ -67,19 +67,19 @@
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xGt-Tl-H6N">
-                                                <rect key="frame" x="8" y="96" width="359" height="1154.5"/>
+                                                <rect key="frame" x="8" y="96" width="359" height="1112"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <string key="text">This app is designed for people who have been a victim of identity theft in some shape or form.  It is not a solution, but it does offer you a starting point to a potentially overwhelming situation. Always decide what is best for you and sift through the information you are getting to the best of your ability.
+                                                <mutableString key="text">This app is designed for people who have been a victim of identity theft in some shape or form.  It is not a solution, but it does offer you a starting point to a potentially overwhelming situation. Always decide what is best for you and sift through the information you are getting to the best of your ability.
 
-You are your best defense to keeping your identity safe.  No one else will do it.  Just like crossing the street without looking, those that do are putting their own safety in the hands of the someone else.  Someone they may not even know.  Always be proactive in your own safety, be it physical, financial or with respect to your own identity.
+You are your best defense to keeping your identity safe.  No one else will do it.  Just like crossing the street without looking, those that do are putting their own safety in the hands of someone else. Always be proactive in your own safety, be it physical, financial or with respect to your own identity.
 
-Some of the steps to protect your identity are fairly easy, but may be time consuming, such as waiting on the phone.  Other steps may be even more time consuming, such as visiting your local Social Security office.
+Some of the steps to protect your identity are fairly easy, but may be time consuming, such as waiting on the phone.  Other steps may be even more time consuming.
 
 Please note that this app will be updated as we find out more information about how to deal with identity theft and potential fraud related to identity theft. Again, we are here as an outline.  Only you can decide what are the best steps for protecting your identity.
 
 We recommend that you have an organized and secure way for finding special passwords and accessing your accounts.
 
-Remember, it is much easier to prevent something from happening then to try to go back and clean up a mess.  Keep in mind that the workers in many of the agencies you will need to contact in order to secure your identity may have also been a victim of identity theft and are very empathetic to your situation. Treat them with gratitude and they will do their very best to help you. Many people have fallen victim to identity theft and your Senator or Representative may also be a victim.  What may have been a big boat, now seems to have morphed into an arc.  Stay alert and protect yourself.</string>
+Remember, it is much easier to prevent something from happening then to try to go back and clean up a mess.  Keep in mind that the workers in many of the agencies you will need to contact in order to secure your identity may have also been a victim of identity theft and are very empathetic to your situation. Treat them with gratitude and they will do their very best to help you. Many people have fallen victim to identity theft and your Senator or Representative may also be a victim.  What may have been a big boat, now seems to have morphed into an arc.  Stay vigilant and protect yourself.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
