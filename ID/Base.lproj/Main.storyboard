@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="WelcomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="ID" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -26,19 +26,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-vh-EH5" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1216"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1109"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVG-PR-VAR" userLabel="Title Text View">
-                                                <rect key="frame" x="8" y="8" width="359" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-gh-sWq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="359" height="80"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDS-dO-PR8">
-                                                        <rect key="frame" x="274" y="17" width="75" height="46"/>
+                                                        <rect key="frame" x="290" y="17" width="75" height="46"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -54,22 +48,28 @@
                                                             <segue destination="ImR-e7-cYc" kind="show" id="I4l-pN-cMU"/>
                                                         </connections>
                                                     </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-gh-sWq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstItem="iDS-dO-PR8" firstAttribute="centerY" secondItem="PbK-gh-sWq" secondAttribute="centerY" id="0z0-zG-gE8"/>
-                                                    <constraint firstItem="PbK-gh-sWq" firstAttribute="leading" secondItem="BVG-PR-VAR" secondAttribute="leading" id="2Wg-Ud-nA9"/>
                                                     <constraint firstAttribute="trailing" secondItem="iDS-dO-PR8" secondAttribute="trailing" constant="10" id="3jD-zg-1Ap"/>
+                                                    <constraint firstItem="PbK-gh-sWq" firstAttribute="leading" secondItem="BVG-PR-VAR" secondAttribute="leading" id="Ax4-P2-vWk"/>
                                                     <constraint firstAttribute="bottom" secondItem="PbK-gh-sWq" secondAttribute="bottom" id="IBV-V7-7Jh"/>
+                                                    <constraint firstAttribute="trailing" secondItem="PbK-gh-sWq" secondAttribute="trailing" id="P0i-No-ybK"/>
                                                     <constraint firstItem="PbK-gh-sWq" firstAttribute="top" secondItem="BVG-PR-VAR" secondAttribute="top" id="QLU-GS-c2N"/>
-                                                    <constraint firstAttribute="trailing" secondItem="PbK-gh-sWq" secondAttribute="trailing" id="U54-GJ-nMz"/>
                                                     <constraint firstAttribute="height" constant="80" id="kkn-7d-bdi"/>
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xGt-Tl-H6N">
-                                                <rect key="frame" x="8" y="96" width="359" height="1112"/>
+                                                <rect key="frame" x="0.0" y="83" width="375" height="1026"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <mutableString key="text">This app is designed for people who have been a victim of identity theft in some shape or form.  It is not a solution, but it does offer you a starting point to a potentially overwhelming situation. Always decide what is best for you and sift through the information you are getting to the best of your ability.
+                                                <string key="text">This app is designed for people who have been a victim of identity theft in some shape or form.  It is not a solution, but it does offer you a starting point to a potentially overwhelming situation. Always decide what is best for you and sift through the information you are getting to the best of your ability.
 
 You are your best defense to keeping your identity safe.  No one else will do it.  Just like crossing the street without looking, those that do are putting their own safety in the hands of someone else. Always be proactive in your own safety, be it physical, financial or with respect to your own identity.
 
@@ -79,20 +79,20 @@ Please note that this app will be updated as we find out more information about 
 
 We recommend that you have an organized and secure way for finding special passwords and accessing your accounts.
 
-Remember, it is much easier to prevent something from happening then to try to go back and clean up a mess.  Keep in mind that the workers in many of the agencies you will need to contact in order to secure your identity may have also been a victim of identity theft and are very empathetic to your situation. Treat them with gratitude and they will do their very best to help you. Many people have fallen victim to identity theft and your Senator or Representative may also be a victim.  What may have been a big boat, now seems to have morphed into an arc.  Stay vigilant and protect yourself.</mutableString>
+Remember, it is much easier to prevent something from happening then to try to go back and clean up a mess.  Keep in mind that the workers in many of the agencies you will need to contact in order to secure your identity may have also been a victim of identity theft and are very empathetic to your situation. Treat them with gratitude and they will do their very best to help you. Many people have fallen victim to identity theft and your Senator or Representative may also be a victim.  What may have been a big boat, now seems to have morphed into an arc.  Stay vigilant and protect yourself.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.81168776750000005" green="0.81188857560000005" blue="0.80758374929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="BVG-PR-VAR" secondAttribute="trailing" constant="8" id="C4S-ym-lrs"/>
-                                            <constraint firstItem="BVG-PR-VAR" firstAttribute="top" secondItem="Drk-vh-EH5" secondAttribute="top" constant="8" id="Kny-cd-UF9"/>
-                                            <constraint firstAttribute="trailing" secondItem="xGt-Tl-H6N" secondAttribute="trailing" constant="8" id="MFZ-lC-Rjd"/>
-                                            <constraint firstItem="xGt-Tl-H6N" firstAttribute="top" secondItem="BVG-PR-VAR" secondAttribute="bottom" constant="8" id="Q6u-zu-lh2"/>
-                                            <constraint firstAttribute="bottom" secondItem="xGt-Tl-H6N" secondAttribute="bottom" constant="8" id="SC4-fa-dx4"/>
-                                            <constraint firstItem="BVG-PR-VAR" firstAttribute="leading" secondItem="Drk-vh-EH5" secondAttribute="leading" constant="8" id="aAZ-Fa-CiU"/>
-                                            <constraint firstItem="xGt-Tl-H6N" firstAttribute="leading" secondItem="Drk-vh-EH5" secondAttribute="leading" constant="8" id="f81-hq-HxC"/>
+                                            <constraint firstAttribute="trailing" secondItem="BVG-PR-VAR" secondAttribute="trailing" id="C4S-ym-lrs"/>
+                                            <constraint firstItem="BVG-PR-VAR" firstAttribute="top" secondItem="Drk-vh-EH5" secondAttribute="top" id="Kny-cd-UF9"/>
+                                            <constraint firstAttribute="trailing" secondItem="xGt-Tl-H6N" secondAttribute="trailing" id="MFZ-lC-Rjd"/>
+                                            <constraint firstItem="xGt-Tl-H6N" firstAttribute="top" secondItem="BVG-PR-VAR" secondAttribute="bottom" constant="3" id="Q6u-zu-lh2"/>
+                                            <constraint firstAttribute="bottom" secondItem="xGt-Tl-H6N" secondAttribute="bottom" id="SC4-fa-dx4"/>
+                                            <constraint firstItem="BVG-PR-VAR" firstAttribute="leading" secondItem="Drk-vh-EH5" secondAttribute="leading" id="aAZ-Fa-CiU"/>
+                                            <constraint firstItem="xGt-Tl-H6N" firstAttribute="leading" secondItem="Drk-vh-EH5" secondAttribute="leading" id="f81-hq-HxC"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -123,7 +123,7 @@ Remember, it is much easier to prevent something from happening then to try to g
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="145"/>
+            <point key="canvasLocation" x="884" y="144.3778110944528"/>
         </scene>
         <!--Credits View Controller-->
         <scene sceneID="Whk-dw-Ivu">
