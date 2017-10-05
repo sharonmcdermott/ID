@@ -11,12 +11,12 @@ import UIKit
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
-    let sectionTitles: [String] = ["Baby Steps", "Like A Big Kid", "Big Boy Pants", "Like A Responsible Adult"]
+    let sectionTitles: [String] = ["Baby Steps: Just Get Started", "Like A Big Kid: Report It", "Big Boy Pants: Decide What To Do", "Like A Responsible Adult: Check Regularly"]
     let sectionImages: [UIImage] = [#imageLiteral(resourceName: "babySteps"), #imageLiteral(resourceName: "bigKid"), #imageLiteral(resourceName: "bigBoyPants"), #imageLiteral(resourceName: "likeAResponsibleAdult")]
     
     let s1Data: [String] = ["Set Up Verbal Passwords For Accounts", "Notify Your Bank(s)", "Notify Your Credit Card(s)", "Notify Your Retirment Account(s)", "Notify Your Investment Account(s)"]
     let s2Data: [String] = ["Call IRS Identity Theft Line 1 (800) 908-4490", "File IRS Form 14039", "Notify Your State's Department of Taxation", "Notify the Social Security Administration", "Notify the Federal Trade Commission", "Notify Your State('s) Attorney General", "File A Local Police Report"]
-    let s3Data: [String] = ["Decide What Action You Will Take", "Notify the Three Credit Bureaus", "Freeze Your Credit Reports"]
+    let s3Data: [String] = ["Notify the Three Credit Bureaus", "Freeze Your Credit Reports", "Purchase Identity Theft Protection Product"]
     let s4Data: [String] = ["Open Your Mail Right Away", "Read Breach Letters Right Away", "File Your Taxes Early", "Regularly Monitor Checking Account(s)", "Regularly Monitor Savings Account(s)", "Regularly Monitor Retirement Account(s)", "Regularly Monitor Investment Account(s)", "Regularly Monitor Credit Card(s)", "Regularly Monitor Credit Report(s)", "Regularly Check Monitoring Site(s)"]
     
     /// Future: provide info related to what to do regarding specific security breaches, such as OPM, Equifax, Bank of America, Target, Clifton Larson Allen, etc.
@@ -58,7 +58,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let label = UILabel()
         label.text = sectionTitles[section]
-        label.frame = CGRect(x: 45, y: 5, width: 200, height: 35)
+        label.frame = CGRect(x: 45, y: 5, width: 350, height: 35)
         view.addSubview(label)
         
         return view
