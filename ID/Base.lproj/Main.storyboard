@@ -26,13 +26,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-vh-EH5" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1162"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="410"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVG-PR-VAR" userLabel="Title Text View">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-gh-sWq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-gh-sWq">
+                                                        <rect key="frame" x="10" y="0.0" width="355" height="80"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -40,32 +40,24 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="PbK-gh-sWq" firstAttribute="leading" secondItem="BVG-PR-VAR" secondAttribute="leading" id="Ax4-P2-vWk"/>
+                                                    <constraint firstItem="PbK-gh-sWq" firstAttribute="leading" secondItem="BVG-PR-VAR" secondAttribute="leading" constant="10" id="Ax4-P2-vWk"/>
                                                     <constraint firstAttribute="bottom" secondItem="PbK-gh-sWq" secondAttribute="bottom" id="IBV-V7-7Jh"/>
-                                                    <constraint firstAttribute="trailing" secondItem="PbK-gh-sWq" secondAttribute="trailing" id="P0i-No-ybK"/>
                                                     <constraint firstItem="PbK-gh-sWq" firstAttribute="top" secondItem="BVG-PR-VAR" secondAttribute="top" id="QLU-GS-c2N"/>
+                                                    <constraint firstAttribute="trailing" secondItem="PbK-gh-sWq" secondAttribute="trailing" constant="10" id="f4l-ie-d3h"/>
                                                     <constraint firstAttribute="height" constant="80" id="kkn-7d-bdi"/>
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xGt-Tl-H6N">
-                                                <rect key="frame" x="5" y="83" width="365" height="1069"/>
+                                                <rect key="frame" x="5" y="83" width="365" height="317"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">This app is designed for people who have been a victim of identity theft in some shape or form.  It is not a solution, but it does offer you a starting point to a potentially overwhelming situation. Always decide what is best for you and sift through the information you are getting to the best of your ability.
 
-You are your best defense to keeping your identity safe.  No one else will do it.  Just like crossing the street without looking, those that do are putting their own safety in the hands of someone else. Always be proactive in your own safety, be it physical, financial or with respect to your own identity.
-
-Some of the steps to protect your identity are fairly easy, but may be time consuming, such as waiting on the phone.  Other steps may be even more time consuming.
-
-Please note that this app will be updated as we find out more information about how to deal with identity theft and potential fraud related to identity theft. Again, we are here as an outline.  Only you can decide what are the best steps for protecting your identity.
-
-We recommend that you have an organized and secure way for finding special passwords and accessing your accounts.
-
-Remember, it is much easier to prevent something from happening then to try to go back and clean up a mess.  Keep in mind that the workers in many of the agencies you will need to contact in order to secure your identity may have also been a victim of identity theft and are very empathetic to your situation. Treat them with gratitude and they will do their very best to help you. Many people have fallen victim to identity theft and your Senator or Representative may also be a victim.  What may have been a big boat, now seems to have morphed into an arc.  Stay vigilant and protect yourself.</string>
+You are your best defense to keeping your identity safe.  No one else will do it.  Always be proactive in your own safety, be it physical, financial or with respect to your own identity.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.81168776750000005" green="0.81188857560000005" blue="0.80758374929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="BVG-PR-VAR" secondAttribute="trailing" id="C4S-ym-lrs"/>
                                             <constraint firstItem="BVG-PR-VAR" firstAttribute="top" secondItem="Drk-vh-EH5" secondAttribute="top" id="Kny-cd-UF9"/>
@@ -203,7 +195,7 @@ Remember, it is much easier to prevent something from happening then to try to g
                                         <rect key="frame" x="8" y="8" width="359" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attribution" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqo-Qv-euM">
-                                                <rect key="frame" x="10" y="0.0" width="349" height="80"/>
+                                                <rect key="frame" x="10" y="0.0" width="339" height="80"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -211,9 +203,9 @@ Remember, it is much easier to prevent something from happening then to try to g
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="cqo-Qv-euM" secondAttribute="trailing" id="5Yw-lr-Wen"/>
                                             <constraint firstItem="cqo-Qv-euM" firstAttribute="top" secondItem="khF-sG-GQL" secondAttribute="top" id="KDK-nB-pYv"/>
                                             <constraint firstAttribute="bottom" secondItem="cqo-Qv-euM" secondAttribute="bottom" id="XTy-oi-ZCL"/>
+                                            <constraint firstAttribute="trailing" secondItem="cqo-Qv-euM" secondAttribute="trailing" constant="10" id="k6i-eX-Pah"/>
                                             <constraint firstItem="cqo-Qv-euM" firstAttribute="leading" secondItem="khF-sG-GQL" secondAttribute="leading" constant="10" id="kHN-qj-gv6"/>
                                         </constraints>
                                     </view>
@@ -261,7 +253,7 @@ Remember, it is much easier to prevent something from happening then to try to g
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yP5-ks-u9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1114" y="-723"/>
+            <point key="canvasLocation" x="1112.8" y="-723.68815592203907"/>
         </scene>
         <!--List View Controller-->
         <scene sceneID="u8P-mH-BJK">
