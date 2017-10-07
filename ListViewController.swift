@@ -19,7 +19,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     let s3Data: [String] = ["Notify the Three Credit Bureaus", "Freeze Your Credit Reports", "Purchase Identity Theft Protection Product"]
     let s4Data: [String] = ["Open Your Mail Right Away", "Read Breach Letters Right Away", "File Your Taxes Early", "Regularly Monitor Checking Account(s)", "Regularly Monitor Savings Account(s)", "Regularly Monitor Retirement Account(s)", "Regularly Monitor Investment Account(s)", "Regularly Monitor Credit Card(s)", "Regularly Monitor Credit Report(s)", "Regularly Check Monitoring Site(s)"]
     
-    /// Future: provide info related to what to do regarding specific security breaches, such as OPM, Equifax, Bank of America, Target, Clifton Larson Allen, etc.
+
     
     var sectionData: [Int: [String]] = [:]
     

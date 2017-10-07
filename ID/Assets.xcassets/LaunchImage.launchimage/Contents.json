@@ -1,32 +1,54 @@
 {
   "images" : [
     {
-      "orientation" : "portrait",
-      "idiom" : "iphone",
       "extent" : "full-screen",
-      "minimum-system-version" : "8.0",
-      "subtype" : "736h",
+      "idiom" : "iphone",
+      "subtype" : "2436h",
+      "filename" : "1125x2436 New ID App splash image.jpg",
+      "minimum-system-version" : "11.0",
+      "orientation" : "portrait",
       "scale" : "3x"
     },
     {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "2436h",
+      "filename" : "2436x1125 New ID iPhone Landscape.jpg",
+      "minimum-system-version" : "11.0",
       "orientation" : "landscape",
-      "idiom" : "iphone",
-      "extent" : "full-screen",
-      "minimum-system-version" : "8.0",
-      "subtype" : "736h",
       "scale" : "3x"
     },
     {
-      "orientation" : "portrait",
-      "idiom" : "iphone",
       "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "736h",
+      "filename" : "1242 x 2208 New ID App splash image.jpg",
       "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "scale" : "3x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "736h",
+      "filename" : "2208x1242 New ID iPhone Landscape.jpg",
+      "minimum-system-version" : "8.0",
+      "orientation" : "landscape",
+      "scale" : "3x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
       "subtype" : "667h",
+      "filename" : "750x1334 New ID Portrait iPhone Splash.jpg",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "640x960 New ID Portrait iPhone Splash-1.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -35,7 +57,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "640x1136 NewID Portrait iPhone Splash.jpg",
+      "filename" : "640x1136 New ID Portrait iPhone Splash-1.jpg",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -43,7 +65,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "768x1024 NewID Portrait iPad Splash-1.jpg",
+      "filename" : "768x1024 New ID Portrait iPad Splash-1.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -51,7 +73,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "New ID 1024x768 iPad Landscape-1.jpg",
+      "filename" : "1024x768 New ID iPad Landscape-1.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -67,7 +89,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "New ID 2048x1536 iPad Landscape-1.jpg",
+      "filename" : "2048x1536 New ID iPad Landscape-1.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -75,18 +97,21 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "320x480 New ID Portrait iPhone Splash .jpg",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "640x960 New ID Portrait iPhone Splash.jpg",
       "extent" : "full-screen",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "640x1136 New ID Portrait iPhone Splash.jpg",
       "extent" : "full-screen",
       "subtype" : "retina4",
       "scale" : "2x"
@@ -94,28 +119,28 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "768x1004 NewID Portrait iPad Splash.jpg",
+      "filename" : "768x1004 New ID Portrait iPad Splash.jpg",
       "extent" : "to-status-bar",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "768x1024 NewID Portrait iPad Splash.jpg",
+      "filename" : "768x1024 New ID Portrait iPad Splash.jpg",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "New ID 1024x748 iPad Landscape.jpg",
+      "filename" : "1024x748 New ID iPad Landscape.jpg",
       "extent" : "to-status-bar",
       "scale" : "1x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "New ID 1024x768 iPad Landscape.jpg",
+      "filename" : "1024x768 New ID iPad Landscape.jpg",
       "extent" : "full-screen",
       "scale" : "1x"
     },
@@ -136,14 +161,14 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "New ID 2048x1496 iPad Landscape.jpg",
+      "filename" : "2048x1496 New ID iPad Landscape.jpg",
       "extent" : "to-status-bar",
       "scale" : "2x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "New ID 2048x1536 iPad Landscape.jpg",
+      "filename" : "2048x1536 New ID iPad Landscape.jpg",
       "extent" : "full-screen",
       "scale" : "2x"
     }

@@ -145,7 +145,7 @@ You are your best defense to keeping your identity safe.  No one else will do it
                                     <constraint firstAttribute="height" constant="46" id="Uue-5n-s5f"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pants by Andrew Cooper from the Noun Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmX-NQ-UE5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pants by Andrew Cooper from the Noun Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmX-NQ-UE5">
                                 <rect key="frame" x="66" y="309" width="283" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="dnA-ld-s6a"/>
@@ -161,7 +161,7 @@ You are your best defense to keeping your identity safe.  No one else will do it
                                     <constraint firstAttribute="height" constant="46" id="zeA-JC-DK4"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mature by Igor Yanovsky from the Noun Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2G-pm-UP4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mature by Igor Yanovsky from the Noun Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2G-pm-UP4">
                                 <rect key="frame" x="66" y="365" width="283" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="BV5-6j-Ier"/>
