@@ -26,10 +26,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-vh-EH5" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="410"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="412"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVG-PR-VAR" userLabel="Title Text View">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                <rect key="frame" x="0.0" y="2" width="375" height="80"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me iD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-gh-sWq">
                                                         <rect key="frame" x="10" y="0.0" width="355" height="80"/>
@@ -48,7 +48,7 @@
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xGt-Tl-H6N">
-                                                <rect key="frame" x="5" y="83" width="365" height="317"/>
+                                                <rect key="frame" x="5" y="85" width="365" height="317"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">This app is designed for people who have been a victim of identity theft in some shape or form.  It is not a solution, but it does offer you a starting point to a potentially overwhelming situation. Always decide what is best for you and sift through the information you are getting to the best of your ability.
 
@@ -60,7 +60,7 @@ You are your best defense to keeping your identity safe.  No one else will do it
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="BVG-PR-VAR" secondAttribute="trailing" id="C4S-ym-lrs"/>
-                                            <constraint firstItem="BVG-PR-VAR" firstAttribute="top" secondItem="Drk-vh-EH5" secondAttribute="top" id="Kny-cd-UF9"/>
+                                            <constraint firstItem="BVG-PR-VAR" firstAttribute="top" secondItem="Drk-vh-EH5" secondAttribute="top" constant="2" id="Kny-cd-UF9"/>
                                             <constraint firstAttribute="trailing" secondItem="xGt-Tl-H6N" secondAttribute="trailing" constant="5" id="MFZ-lC-Rjd"/>
                                             <constraint firstItem="xGt-Tl-H6N" firstAttribute="top" secondItem="BVG-PR-VAR" secondAttribute="bottom" constant="3" id="Q6u-zu-lh2"/>
                                             <constraint firstAttribute="bottom" secondItem="xGt-Tl-H6N" secondAttribute="bottom" constant="10" id="SC4-fa-dx4"/>
