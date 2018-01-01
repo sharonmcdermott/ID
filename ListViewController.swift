@@ -16,7 +16,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     let s1Data: [String] = ["Set Up Verbal Passwords For Accounts", "Notify Your Bank(s)", "Notify Your Credit Card(s)", "Notify Your Retirment Account(s)", "Notify Your Investment Account(s)"]
     let s2Data: [String] = ["Call IRS Identity Theft Line 1 (800) 908-4490", "File IRS Form 14039", "Notify Your State's Department of Taxation", "Notify the Social Security Administration", "Notify the Federal Trade Commission", "Notify Your State('s) Attorney General", "File A Local Police Report"]
-    let s3Data: [String] = ["Get an IRS PIN number", "Get a State Tax PIN number", "Notify the Three Credit Bureaus", "Freeze Your Credit Reports", "Purchase Identity Theft Protection Product"]
+    let s3Data: [String] = ["Get an IRS PIN number", "Get a State Tax PIN number", "Notify the Three Credit Bureaus", "Freeze Your Credit Reports", "Identity Theft Protection Product(s)"]
     let s4Data: [String] = ["Open Your Mail Right Away", "Read Breach Letters Right Away", "File Your Taxes Early", "Regularly Monitor Checking Account(s)", "Regularly Monitor Savings Account(s)", "Regularly Monitor Retirement Account(s)", "Regularly Monitor Investment Account(s)", "Regularly Monitor Credit Card(s)", "Regularly Monitor Credit Report(s)", "Regularly Check Monitoring Site(s)"]
     
 
@@ -30,6 +30,18 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.dataSource = self
         
         sectionData = [0:s1Data, 1:s2Data, 2:s3Data, 3:s4Data]
+        setupNavBar()
+    }
+    
+    func setupNavBar() {
+        if #available(iOS 11.0, *) {
+            navigationController?.navigationBar.prefersLargeTitles = true
+            /// the searchcontroller statement creates a searchbar if needed.
+//            let searchController = UISearchController(searchResultsController: nil)
+//            navigationItem.searchController = searchController
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
 
@@ -84,4 +96,5 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             
             return cell!
     }
+    
 }
